@@ -1,0 +1,35 @@
+
+#playing-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 8px #333;
+    min-width: 25vw;
+    min-height: 35vw;
+}
+.red{
+    color: red;
+}
+.left{
+    display: flex;
+    align-self: flex-start;
+}
+.right{
+    display: flex;
+    align-self: flex-end;
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-self: center;
+    font-size: 64px;
+    max-width: 60px;
+}
