@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON </title>
+    
+</head>
+<body>
+    <script type="text/javascript">
+
+        // normlly when working with json we work with it like string ``
+       let people= `[
+    {
+        "name" : "smael",
+        "club" : "culturel",
+        "hobbits": [
+            "foot",
+            "studying",
+            "tennis"
+        ],
+        "favs": [
+        {
+            "name": "op",
+            "manga": true
+        },
+        {
+            "name": "naruto",
+            "manga": false
+        }
+            ]
+    
+    },
+    {
+        "name" : "smael",
+        "club" : "culturel",
+        "hobbits": [
+            "foot",
+            "studying",
+            "tennis"
+        ],
+        "favs": [
+        {
+            "name": "op",
+            "manga": true
+        },
+        {
+            "name": "naruto",
+            "manga": false
+        }
+            ]
+    
+    }
+
+]`
+
+console.log(JSON.parse((people)[1].name))
+
+    </script>
+</body>
+</html>

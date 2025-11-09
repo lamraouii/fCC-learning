@@ -1,0 +1,39 @@
+[
+    {
+        "name" : "smael",
+        "club" : "culturel",
+        "hobbits": [
+            "foot",
+            "studying",
+            "tennis"
+        ],
+        "favs": [{
+            "name": "op",
+            "manga": true
+        },
+        {
+            "name": "naruto",
+            "manga": false
+        }]
+    
+    },
+    {
+        "name" : "sousou",
+        "club" : "culturel",
+        "hobbits": [
+            "foot",
+            "studying",
+            "tennis"
+        ],
+        "favs": [{
+            "name": "op",
+            "manga": true
+        },
+        {
+            "name": "naruto",
+            "manga": false
+        }]
+    
+    }
+    
+]
